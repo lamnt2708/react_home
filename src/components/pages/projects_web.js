@@ -64,7 +64,7 @@ export class Projects_Web extends Component {
                                 <a title="Homepage" href={process.env.PUBLIC_URL + '/'} ><i className="ti ti-home" />&nbsp;&nbsp;Home</a>
                             </span>
                             <span className="ttm-bread-sep">&nbsp; : : &nbsp;</span>
-                            <span>Projects : : Website </span>
+                            <span>Projects : : Application </span>
                             </div>  
                         </div>
                         </div>{/* /.col-md-12 */}  
