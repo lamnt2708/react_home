@@ -72,7 +72,7 @@ export class Footer extends Component {
                         <div className="widget link-widget clearfix">
                         <h3 className="widget-title">Quick Links</h3>
                         <ul id="menu-footer-services">
-                            <li><a >Make Appointment</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/company_info'}>Company's Info</a></li>
                             <li><a >Customer Services</a></li>
                             <li><a >Department Services</a></li>
                             <li><a >About Company</a></li>
