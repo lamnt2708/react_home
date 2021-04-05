@@ -39,23 +39,23 @@ $(window).scroll(function(){
 /* 3. Add active class in menu-item
 /*------------------------------------------------------------------------------*/
 
- let switchNavMenuItem = (menuItems) => {
+// let switchNavMenuItem = (menuItems) => {
 
-     var current = location.pathname
+//     var current = location.pathname
 
-     $.each(menuItems, (index, item) => {
+//     $.each(menuItems, (index, item) => {
 
-         $(item).removeClass('active')
+//         $(item).removeClass('active')
 
-         if ((current.includes($(item).attr('href')) && $(item).attr('href') !== "/") || ($(item).attr('href') === "/" && current === "/")){
-             $(item).addClass('active')
-         }
-     })
- }
+//         if ((current.includes($(item).attr('href')) && $(item).attr('href') !== "/") || ($(item).attr('href') === "/" && current === "/")){
+//             $(item).addClass('active')
+//         }
+//     })
+// }
 
- $(document).ready(() => {   
-     switchNavMenuItem($('#menu li > a'))
- })
+// $(document).ready(() => {   
+//     switchNavMenuItem($('#menu li > a'))
+// })
 
 //*------------------------------------------------------------------------------*/
 /* 4 . Play pop up

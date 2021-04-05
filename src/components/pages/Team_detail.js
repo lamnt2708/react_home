@@ -37,7 +37,7 @@ export class Team_detail extends Component {
                         <div className="col-lg-4">
                         <div className="ttm-featured-wrapper"> 
                             <div className="featured-thumbnail text-center">
-                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt=" "/>
+                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt="image" />
                             </div> 
                         </div>
                         </div>
@@ -47,7 +47,7 @@ export class Team_detail extends Component {
                             <h2 className="ttm-team-member-single-title">Nguyen Tien Loc</h2>
                             <span className="ttm-team-member-single-position">Technical Leader</span>
                             <p>Meet Nguyen Tien Loc. He has over 10 years of experience as an developer, 8 of which as a full-stack developer. For the last 5 years, he had been working with React and React Native. This has enabled him to have deep understanding of the language and know how to use it best in development. </p>
-                            <p>As an technical leader, he has experience in all process of developing an application, from requirements analysis, DB, UI/UX designs, coding to even project management. During the course of his carrer, he has worked with customer from all over the worlds.</p>
+                            <p>As an technical leader, he has experience in all process of developing an application, from requirements analysis, DB, UI/UX designs, coding to even project management. During the course of his carrer, he has worked with customer from all over the worlds including those from America, China, Korean, Indonesia and Japan.</p>
                             {/* separator */}
                             <div className="separator">
                                 <div className="sep-line mt-4 mb-4" />
@@ -231,7 +231,7 @@ export class Team_detail extends Component {
                         <div className="col-lg-4">
                         <div className="ttm-featured-wrapper"> 
                             <div className="featured-thumbnail text-center">
-                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt=" " />
+                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt="image" />
                             </div> 
                         </div>
                         </div>
@@ -241,7 +241,7 @@ export class Team_detail extends Component {
                             <h2 className="ttm-team-member-single-title">Dao Viet Anh</h2>
                             <span className="ttm-team-member-single-position">Technical Leader</span>
                             <p>This is our technical leader Dao Viet Anh. He is one the two most senior developer of React Plus in term of work experience. Starting with Java, he has master many programing languages and frameworks for developing both front-end and back-end contents like Scala, Struts, AngularJs, NextJs, React, ReactNative, Redux...  </p>
-                            <p>While specializing in back-end works like DB design and creating API, he also excell in front-end works and have years of experience in project management. </p>
+                            <p>While specializing in back-end works like DB design and creating API, he also excell in front-end works and have years of experience in project management. He also have experience working with custommer from all over the globe. </p>
                             {/* separator */}
                             <div className="separator">
                                 <div className="sep-line mt-4 mb-4" />
@@ -264,11 +264,11 @@ export class Team_detail extends Component {
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-time" /> Experience :</div>
-                                    <div className="ttm-team-list-value">11 Years</div>
+                                    <div className="ttm-team-list-value">10 Years</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-calendar" /> Since :</div>
-                                    <div className="ttm-team-list-value">2010</div>
+                                    <div className="ttm-team-list-value">2011</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-location-pin" /> Address Info :</div>
@@ -329,7 +329,7 @@ export class Team_detail extends Component {
                         <div className="col-lg-4">
                         <div className="ttm-featured-wrapper"> 
                             <div className="featured-thumbnail text-center">
-                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt=" " />
+                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt="image" />
                             </div> 
                         </div>
                         </div>
@@ -338,7 +338,7 @@ export class Team_detail extends Component {
                             <div className="ttm-team-member-single-list">
                             <h2 className="ttm-team-member-single-title">Le Manh Hung</h2>
                             <span className="ttm-team-member-single-position">Technical Leader</span>
-                            <p>Hung has been with React Plus from almost day one. He has provided technical advice and led the implementation of technology-based solutions for many of our projects. In the past, he also have been working as a developer in Japan for almost a year, enabling him to understand Japan's work culture.  </p>
+                            <p>Hung has been with React Plus from almost day one. He has provided technical advice and led the implementation of technology-based solutions for many of our projects. In the past, he also have been working as a developer in Japan for almost a year, enabling him to have an understanding of Japan's work culture.  </p>
                             <p>Starting from a simple developer, his role has evolved to include project management, requirements analysis, heating up things on our mobile/responsive front end development and creating simple, efficient solutions for our projects.</p>
                             {/* separator */}
                             <div className="separator">
@@ -362,11 +362,11 @@ export class Team_detail extends Component {
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-time" /> Experience :</div>
-                                    <div className="ttm-team-list-value">8 Years</div>
+                                    <div className="ttm-team-list-value">10 Years</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-calendar" /> Since :</div>
-                                    <div className="ttm-team-list-value">2013</div>
+                                    <div className="ttm-team-list-value">2011</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-location-pin" /> Address Info :</div>
@@ -427,7 +427,7 @@ export class Team_detail extends Component {
                         <div className="col-lg-4">
                         <div className="ttm-featured-wrapper"> 
                             <div className="featured-thumbnail text-center">
-                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt=" " />
+                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt="image" />
                             </div> 
                         </div>
                         </div>
@@ -437,7 +437,7 @@ export class Team_detail extends Component {
                             <h2 className="ttm-team-member-single-title">Mai Thi Hong Tham</h2>
                             <span className="ttm-team-member-single-position">BrSE Leader</span>
                             <p>Meet our BrSE team leader Mai Thi Hong Tham. With 8+ years of experience working as a BrSE under her belt, she is able to understand precisely what the client want and convey them to our developer team. When working with us, she will be the first and the last person you talk with to get your desired development result.</p>
-                            <p>Other than the day-to-day communication and report, to ensure the progress of development, she is also in charge of other processes like requirements analysis, project management and testing. </p>
+                            <p>Other than the day-to-day communication and report, to ensure the progress of development, she is also in charge of other processes like requirements analysis, project management, creating development document and testing. </p>
                             {/* separator */}
                             <div className="separator">
                                 <div className="sep-line mt-4 mb-4" />
@@ -525,7 +525,7 @@ export class Team_detail extends Component {
                         <div className="col-lg-4">
                         <div className="ttm-featured-wrapper"> 
                             <div className="featured-thumbnail text-center">
-                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt=" " />
+                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt="image" />
                             </div> 
                         </div>
                         </div>
@@ -534,8 +534,8 @@ export class Team_detail extends Component {
                             <div className="ttm-team-member-single-list">
                             <h2 className="ttm-team-member-single-title">Ngo Thai Son</h2>
                             <span className="ttm-team-member-single-position">Technical Leader</span>
-                            <p>Meet our techinical leader Ngo Thai Son. He is one of the first members of React Plus and has over 8 years of experience in the bussiness.His stacks included C#, JavaScript, Java, TypeScript, AngularJS, Nodejs, ReactJS, ReactNative... Son is also capable of speaking Japanese which had enabled him to work in Japan as a developer for almost a years.  </p>
-                            <p>In addition to his programing skill, he is also familiar with requirements analysis, project management, UI/UX design, DB design and cloud computing.  </p>
+                            <p>Meet Nguyen Tien Loc. He has over 10 years of experience as an developer, 8 of which as a full-stack developer. For the last 5 years, he had been working with React and React Native. This has enabled him to have deep understanding of the language and know how to use it best in development. </p>
+                            <p>As an techinical leader, he has succesfully take part in all process of developing an application, from requirements analysis, DB, UI/UX designs, coding to even project management. During the course of his carrer, he has worked with customer from all over the worlds like America, China, Korean, Indonesia and Japan.</p>
                             {/* separator */}
                             <div className="separator">
                                 <div className="sep-line mt-4 mb-4" />
@@ -558,11 +558,11 @@ export class Team_detail extends Component {
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-time" /> Experience :</div>
-                                    <div className="ttm-team-list-value">8 Years</div>
+                                    <div className="ttm-team-list-value">10 Years</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-calendar" /> Since :</div>
-                                    <div className="ttm-team-list-value">2013</div>
+                                    <div className="ttm-team-list-value">2011</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-location-pin" /> Address Info :</div>
@@ -623,7 +623,7 @@ export class Team_detail extends Component {
                         <div className="col-lg-4">
                         <div className="ttm-featured-wrapper"> 
                             <div className="featured-thumbnail text-center">
-                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt=" " />
+                            <img className="img-fluid" src="images/temp/team-img04.jpg" alt="image" />
                             </div> 
                         </div>
                         </div>
@@ -632,8 +632,8 @@ export class Team_detail extends Component {
                             <div className="ttm-team-member-single-list">
                             <h2 className="ttm-team-member-single-title">Do Manh Dat</h2>
                             <span className="ttm-team-member-single-position">Technical Leader</span>
-                            <p>This is Do Manh Dat. He is one our technical leader and also one of the first member of React Plus. He has 8+ year of experiencen as a developer and has master many programing language icluding JavaScript, ReactJs, Redux, React Native, AngularJs, Nodejs, jQuery. He is also our in-house expert in cloud-based solution.</p>
-                            <p>Aside from development task like coding, designing DB, UI/UX, Dat is also familiar with management task like requirements analysis and project managements.</p>
+                            <p>Meet Nguyen Tien Loc. He has over 10 years of experience as an developer, 8 of which as a full-stack developer. For the last 5 years, he had been working with React and React Native. This has enabled him to have deep understanding of the language and know how to use it best in development. </p>
+                            <p>As an techinical leader, he has succesfully take part in all process of developing an application, from requirements analysis, DB, UI/UX designs, coding to even project management. During the course of his carrer, he has worked with customer from all over the worlds like America, China, Korean, Indonesia and Japan.</p>
                             {/* separator */}
                             <div className="separator">
                                 <div className="sep-line mt-4 mb-4" />
@@ -656,11 +656,11 @@ export class Team_detail extends Component {
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-time" /> Experience :</div>
-                                    <div className="ttm-team-list-value">8 Years</div>
+                                    <div className="ttm-team-list-value">10 Years</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-calendar" /> Since :</div>
-                                    <div className="ttm-team-list-value">2013</div>
+                                    <div className="ttm-team-list-value">2011</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-location-pin" /> Address Info :</div>
