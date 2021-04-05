@@ -436,8 +436,8 @@ export class Team_detail extends Component {
                             <div className="ttm-team-member-single-list">
                             <h2 className="ttm-team-member-single-title">Mai Thi Hong Tham</h2>
                             <span className="ttm-team-member-single-position">BrSE Leader</span>
-                            <p>Meet Nguyen Tien Loc. He has over 10 years of experience as an developer, 8 of which as a full-stack developer. For the last 5 years, he had been working with React and React Native. This has enabled him to have deep understanding of the language and know how to use it best in development. </p>
-                            <p>As an techinical leader, he has succesfully take part in all process of developing an application, from requirements analysis, DB, UI/UX designs, coding to even project management. During the course of his carrer, he has worked with customer from all over the worlds like America, China, Korean, Indonesia and Japan.</p>
+                            <p>Meet our BrSE team leader Mai Thi Hong Tham. With 8+ years of experience working as a BrSE under her belt, she is able to understand precisely what the client want and convey them to our developer team. When working with us, she will be the first and the last person you talk with to get your desired development result.</p>
+                            <p>Other than the day-to-day communication and report, to ensure the progress of development, she is also in charge of other processes like requirements analysis, project management, creating development document and testing. </p>
                             {/* separator */}
                             <div className="separator">
                                 <div className="sep-line mt-4 mb-4" />
@@ -460,11 +460,11 @@ export class Team_detail extends Component {
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-time" /> Experience :</div>
-                                    <div className="ttm-team-list-value">10 Years</div>
+                                    <div className="ttm-team-list-value">8 Years</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-calendar" /> Since :</div>
-                                    <div className="ttm-team-list-value">2011</div>
+                                    <div className="ttm-team-list-value">2014</div>
                                     </li>
                                     <li>
                                     <div className="ttm-team-list-title"><i className="ti ti-location-pin" /> Address Info :</div>
