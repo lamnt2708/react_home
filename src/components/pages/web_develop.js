@@ -108,7 +108,7 @@ export class Web_Develop extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="../images/temp/13.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-fluid" src="./images/temp/13.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -158,7 +158,7 @@ export class Web_Develop extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="../images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -175,7 +175,7 @@ export class Web_Develop extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="../images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-fluid" src="./images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -218,7 +218,7 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -235,7 +235,7 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -252,7 +252,7 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -269,7 +269,7 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -286,7 +286,7 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -303,7 +303,7 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -335,7 +335,7 @@ export class Web_Develop extends Component {
 
                   <div className="title-desc">
                     <div className="client">
-                    <img className="img-fluid" src="../images/temp/tech_01.png"></img>
+                    <img className="img-fluid" src="./images/temp/tech_01.png"></img>
 
 
                     </div>

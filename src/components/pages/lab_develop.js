@@ -113,7 +113,7 @@ export class Lab_Develop extends Component {
                     <div className="ttm-processbox-wrapper">
                       <div className="ttm-processbox text-center">
                         <div className="ttm-box-image">
-                          <img className="img-fluid" alt="step-one" title="step-one" src="../images/temp/step-one.jpg" />
+                          <img className="img-fluid" alt="step-one" title="step-one" src="./images/temp/step-one.jpg" />
                           <div className="process-num">
                             <span className="number">01</span>
                           </div>
@@ -125,7 +125,7 @@ export class Lab_Develop extends Component {
                       </div>
                       <div className="ttm-processbox text-center">
                         <div className="ttm-box-image">
-                          <img className="img-fluid" alt="step-two" title="step-two" src="../images/temp/step-two.jpg" />
+                          <img className="img-fluid" alt="step-two" title="step-two" src="./images/temp/step-two.jpg" />
                           <div className="process-num">
                             <span className="number">02</span>
                           </div>
@@ -137,7 +137,7 @@ export class Lab_Develop extends Component {
                       </div>
                       <div className="ttm-processbox text-center">
                         <div className="ttm-box-image">
-                          <img className="img-fluid" alt="step-three" title="step-three" src="../images/temp/step-three.jpg" />
+                          <img className="img-fluid" alt="step-three" title="step-three" src="./images/temp/step-three.jpg" />
                           <div className="process-num">
                             <span className="number">03</span>
                           </div>
@@ -149,7 +149,7 @@ export class Lab_Develop extends Component {
                       </div>
                       <div className="ttm-processbox text-center res-991-mb-0">
                         <div className="ttm-box-image">
-                          <img className="img-fluid" alt="step-four" title="step-four" src="../images/temp/step-four.jpg" />
+                          <img className="img-fluid" alt="step-four" title="step-four" src="./images/temp/step-four.jpg" />
                           <div className="process-num">
                             <span className="number">04</span>
                           </div>
@@ -186,7 +186,7 @@ export class Lab_Develop extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="../images/temp/13.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-fluid" src="./images/temp/13.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -232,7 +232,7 @@ export class Lab_Develop extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="../images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -249,7 +249,7 @@ export class Lab_Develop extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="../images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-fluid" src="./images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -290,7 +290,7 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -307,7 +307,7 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -324,7 +324,7 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -341,7 +341,7 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -358,7 +358,7 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -375,7 +375,7 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">

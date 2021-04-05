@@ -17,7 +17,7 @@ export class CarouselPage extends Component {
             <MDBCarouselInner>
                 <MDBCarouselItem itemId="1">
                 <MDBView>
-                    <img className="d-block w-100" src="../images/temp/slider-mainbg-001.jpg" alt="First slide" />
+                    <img className="d-block w-100" src="./images/temp/slider-mainbg-001.jpg" alt="First slide" />
                 </MDBView>
                 <MDBCarouselCaption>
                     <div className="container-xl">
@@ -35,7 +35,7 @@ export class CarouselPage extends Component {
                 </MDBCarouselItem>
                 <MDBCarouselItem itemId="2">
                 <MDBView>
-                    <img className="d-block w-100" src="../images/temp/slider-mainbg-002.jpg" alt="Second slide" />
+                    <img className="d-block w-100" src="./images/temp/slider-mainbg-002.jpg" alt="Second slide" />
                 </MDBView>
                 <MDBCarouselCaption>
                     <div className="container-xl">

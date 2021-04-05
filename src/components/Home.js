@@ -153,7 +153,7 @@ export class Home extends Component {
                                 {/* featured-imagebox-services */}
                                 <div className="featured-imagebox featured-imagebox-services style1">
                                     <div className="featured-thumbnail">{/* featured-thumbnail */}
-                                    <img className="img-fluid" src="../images/temp/01.jpg" alt="image" />
+                                    <img className="img-fluid" src="./images/temp/01.jpg" alt="image" />
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
@@ -171,7 +171,7 @@ export class Home extends Component {
                                 {/* featured-imagebox-services */}
                                 <div className="featured-imagebox featured-imagebox-services style1">
                                     <div className="featured-thumbnail">{/* featured-thumbnail */}
-                                    <img className="img-fluid" src="../images/temp/02.jpg" alt="image" />
+                                    <img className="img-fluid" src="./images/temp/02.jpg" alt="image" />
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
@@ -189,7 +189,7 @@ export class Home extends Component {
                                 {/* featured-imagebox-services */}
                                 <div className="featured-imagebox featured-imagebox-services style1">
                                     <div className="featured-thumbnail">{/* featured-thumbnail */}
-                                    <img className="img-fluid" src="../images/temp/03.jpg" alt="image" />
+                                    <img className="img-fluid" src="./images/temp/03.jpg" alt="image" />
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
@@ -242,7 +242,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -259,7 +259,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -276,7 +276,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -293,7 +293,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -310,7 +310,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -327,7 +327,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -351,7 +351,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -368,7 +368,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -385,7 +385,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -402,7 +402,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -419,7 +419,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -436,7 +436,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -460,7 +460,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -477,7 +477,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -494,7 +494,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -511,7 +511,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -528,7 +528,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -545,7 +545,7 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
@@ -674,7 +674,7 @@ export class Home extends Component {
                                     <div className="client-box ttm-box-view-boxed-logo">
                                         <div className="client">
                                             <div className="ttm-client-logo-tooltip" data-tooltip="client-01">
-                                                <img className="img-fluid" src="../images/temp/client-01.png" alt="image" />
+                                                <img className="img-fluid" src="./images/temp/client-01.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
@@ -683,7 +683,7 @@ export class Home extends Component {
                                     <div className="client-box ttm-box-view-boxed-logo">
                                         <div className="client">
                                             <div className="ttm-client-logo-tooltip" data-tooltip="client-02">
-                                                <img className="img-fluid" src="../images/temp/client-02.png" alt="image" />
+                                                <img className="img-fluid" src="./images/temp/client-02.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
@@ -692,7 +692,7 @@ export class Home extends Component {
                                     <div className="client-box ttm-box-view-boxed-logo">
                                         <div className="client">
                                             <div className="ttm-client-logo-tooltip" data-tooltip="client-03">
-                                                <img className="img-fluid" src="../images/temp/client-03.png" alt="image" />
+                                                <img className="img-fluid" src="./images/temp/client-03.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
@@ -701,7 +701,7 @@ export class Home extends Component {
                                     <div className="client-box ttm-box-view-boxed-logo">
                                         <div className="client">
                                             <div className="ttm-client-logo-tooltip" data-tooltip="client-04">
-                                                <img className="img-fluid" src="../images/temp/client-04.png" alt="image" />
+                                                <img className="img-fluid" src="./images/temp/client-04.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
@@ -710,7 +710,7 @@ export class Home extends Component {
                                     <div className="client-box ttm-box-view-boxed-logo">
                                         <div className="client">
                                             <div className="ttm-client-logo-tooltip" data-tooltip="client-05">
-                                                <img className="img-fluid" src="../images/temp/client-02.png" alt="image" />
+                                                <img className="img-fluid" src="./images/temp/client-02.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>

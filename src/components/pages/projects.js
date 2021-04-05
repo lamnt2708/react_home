@@ -51,7 +51,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -68,7 +68,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -85,7 +85,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -102,7 +102,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -119,7 +119,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -136,7 +136,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -153,7 +153,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/13.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/13.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -170,7 +170,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/14.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/14.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -187,7 +187,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/15.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/15.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -208,7 +208,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/10.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -225,7 +225,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/11.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -242,7 +242,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -263,7 +263,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -280,7 +280,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/13.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/13.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -297,7 +297,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/14.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/14.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -318,7 +318,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -335,7 +335,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/09.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -352,7 +352,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/15.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/15.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -373,7 +373,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/12.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -390,7 +390,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/13.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/13.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -407,7 +407,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/14.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/14.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -424,7 +424,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/15.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/15.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -441,7 +441,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/07.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
@@ -458,7 +458,7 @@ export class Projects extends Component {
                                                         <div className="featured-imagebox featured-imagebox-portfolio style2">
                                                             {/* featured-thumbnail */}
                                                             <div className="featured-thumbnail">
-                                                            <img className="img-fluid" src="../images/temp/08.jpg" alt="image" />
+                                                            <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
                                                             </div>{/* featured-thumbnail end*/}
                                                             <div className="featured-content">
                                                             <div className="category">
