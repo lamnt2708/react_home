@@ -94,10 +94,10 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>01</h5>
-                                <h2 className="title">Lorem Ipsum Website</h2>
+                                <h2 className="title">E-commerce Site</h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>This is a B2B custom jewelry sale system. User would brought their own gemstone and choose the design they want on the system. Main function of this site included import, display 3D model of the jewelry of the browser and creating PDF file for orders, deliveries and billings</p>
                             </div>
                             </div>{/* section title end */}
 
@@ -112,20 +112,20 @@ export class Projects_Web extends Component {
                  <table class="table text-center strong ml-1 mr-1 " >
                     <tbody>
                     <tr>
-                        <td class="text-right font-weight-600" >Development Field</td>
+                        <td class="text-left font-weight-600" >Development Field</td>
                         <td class="text-left" >Sales</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Client Size</td>
-                        <td class="text-left" >11-100 employees</td>
+                        <td class="text-left font-weight-600" >Team Size</td>
+                        <td class="text-left" >3 people</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Technologies</td>
-                        <td class="text-left" >Java/Objective-C/Struts</td>
+                        <td class="text-left font-weight-600" >Technologies</td>
+                        <td class="text-left" >React-Featherjs-AWS Personalize</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Contract Type - Developing duration</td>
-                        <td class="text-left" >Lab-type Contract in more than 2 years (On-going)</td>
+                        <td class="text-left font-weight-600" >Contract Type - Developing duration</td>
+                        <td class="text-left align-middle" >Lab-type Contract in more than 3 months (On-going)</td>
                     </tr>
                     </tbody>
                 </table>
@@ -150,10 +150,10 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>02</h5>
-                                <h2 className="title">Lorem Ipsum Website</h2>
+                                <h2 className="title">Drag and Drop Mobile Application Builder System</h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>A system that enabled you to create mobile applications without having to write any line of code. Just by dragging and dropping components on the browser, you can create any mobile applications that you want. </p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -175,20 +175,20 @@ export class Projects_Web extends Component {
                  <table class="table text-center strong ml-1 mr-1 " >
                     <tbody>
                     <tr>
-                        <td class="text-right font-weight-600" >Development Field</td>
-                        <td class="text-left" >Sales</td>
+                        <td class="text-left font-weight-600" >Development Field</td>
+                        <td class="text-left" >IT</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Client Size</td>
-                        <td class="text-left" >11-100 employees</td>
+                        <td class="text-left font-weight-600" >Team Size</td>
+                        <td class="text-left" >10 pepople</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Technologies</td>
-                        <td class="text-left" >Java/Objective-C/Struts</td>
+                        <td class="text-left font-weight-600" >Technologies</td>
+                        <td class="text-left" >React-Redux-Java-Spring Boot</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Contract Type - Developing duration</td>
-                        <td class="text-left" >Lab-type Contract in more than 2 years (On-going)</td>
+                        <td class="text-left font-weight-600" >Contract Type - Developing duration</td>
+                        <td class="text-left align-middle" >Lab-type Contract in more than 10 months (On-going)</td>
                     </tr>
                     </tbody>
                 </table>
@@ -214,10 +214,10 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>03</h5>
-                                <h2 className="title">Lorem Ipsum Website</h2>
+                                <h2 className="title">Hotel Chain Management System</h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>This is a system that allow owner to assign tasks to hotels or hotels chains. We also implement the gantt chart fucntion to display the progress of each task based on the task's status.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -231,20 +231,20 @@ export class Projects_Web extends Component {
                  <table class="table text-center strong ml-1 mr-1 " >
                     <tbody>
                     <tr>
-                        <td class="text-right font-weight-600" >Development Field</td>
-                        <td class="text-left" >Sales</td>
+                        <td class="text-left font-weight-600" >Development Field</td>
+                        <td class="text-left" >Services</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Client Size</td>
-                        <td class="text-left" >11-100 employees</td>
+                        <td class="text-left font-weight-600" >Team Size</td>
+                        <td class="text-left" >6 people</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Technologies</td>
-                        <td class="text-left" >Java/Objective-C/Struts</td>
+                        <td class="text-left font-weight-600" >Technologies</td>
+                        <td class="text-left" >React-Redux-Java-Spring Boot</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Contract Type - Developing duration</td>
-                        <td class="text-left" >Lab-type Contract in more than 2 years (On-going)</td>
+                        <td class="text-left font-weight-600" >Contract Type - Developing duration</td>
+                        <td class="text-left align-middle" >Project Based – 6 months</td>
                     </tr>
                     </tbody>
                 </table>
@@ -262,10 +262,10 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>04</h5>
-                                <h2 className="title">Lorem Ipsum Website</h2>
+                                <h2 className="title">English Teacher Dispatching Management System</h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>This system manage the dispatching of english teacher to english learning event organized by school or organizations. By using series of information like teacher's schedule, address, contract, school's plan, budget,... thẻ project aims to increase the efficency of operation cost. </p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -287,20 +287,20 @@ export class Projects_Web extends Component {
                  <table class="table text-center strong ml-1 mr-1 " >
                     <tbody>
                     <tr>
-                        <td class="text-right font-weight-600" >Development Field</td>
-                        <td class="text-left" >Sales</td>
+                        <td class="text-left font-weight-600" >Development Field</td>
+                        <td class="text-left" >Education</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Client Size</td>
-                        <td class="text-left" >11-100 employees</td>
+                        <td class="text-left font-weight-600" >Team Size</td>
+                        <td class="text-left" >8 people</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Technologies</td>
-                        <td class="text-left" >Java/Objective-C/Struts</td>
+                        <td class="text-left font-weight-600" >Technologies</td>
+                        <td class="text-left" >React-ReactHook-NodeJs</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Contract Type - Developing duration</td>
-                        <td class="text-left" >Lab-type Contract in more than 2 years (On-going)</td>
+                        <td class="text-left font-weight-600" >Contract Type - Developing duration</td>
+                        <td class="text-left align-middle" >Lab-type Contract in more than 4 months (On-going)</td>
                     </tr>
                     </tbody>
                 </table>
@@ -326,10 +326,10 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>05</h5>
-                                <h2 className="title">Lorem Ipsum Website</h2>
+                                <h2 className="title">Image Distribution Website</h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>A website to distribute high-quality stock photos for commercial and personal use. User can download a limited amount of images for free at a set interval or upgrade to be able to download with no restrictions</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -343,20 +343,20 @@ export class Projects_Web extends Component {
                  <table class="table text-center strong ml-1 mr-1 " >
                     <tbody>
                     <tr>
-                        <td class="text-right font-weight-600" >Development Field</td>
-                        <td class="text-left" >Sales</td>
+                        <td class="text-left font-weight-600" >Development Field</td>
+                        <td class="text-left" >Media</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Client Size</td>
-                        <td class="text-left" >11-100 employees</td>
+                        <td class="text-left font-weight-600" >Team Size</td>
+                        <td class="text-left" >6 people</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Technologies</td>
-                        <td class="text-left" >Java/Objective-C/Struts</td>
+                        <td class="text-left font-weight-600" >Technologies</td>
+                        <td class="text-left" >React-NodeJs-AWS</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Contract Type - Developing duration</td>
-                        <td class="text-left" >Lab-type Contract in more than 2 years (On-going)</td>
+                        <td class="text-left font-weight-600" >Contract Type - Developing duration</td>
+                        <td class="text-left align-middle" >Project Based – 1 year</td>
                     </tr>
                     </tbody>
                 </table>
@@ -364,7 +364,7 @@ export class Projects_Web extends Component {
                     </div>
                     </div>
                     </section>
-                    <section className="ttm-row.zero-padding-section clearfix" id="project-6">
+                    <section className="ttm-row.zero-padding-section mb-5 clearfix" id="project-6">
                       {/* aboutus-section */}
                     <div className="container-xl">
                     <div className="row">{/* row */}
@@ -374,10 +374,10 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>06</h5>
-                                <h2 className="title">Lorem Ipsum Website</h2>
+                                <h2 className="title">Swimming Record Storage System</h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>A website that keep tracks of record from swimming touraments all over Japan. You can check the touraments record by event, team or individual swimmer and compare record with visual graphs.  </p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -399,20 +399,20 @@ export class Projects_Web extends Component {
                  <table class="table text-center strong ml-1 mr-1 " >
                     <tbody>
                     <tr>
-                        <td class="text-right font-weight-600" >Development Field</td>
-                        <td class="text-left" >Sales</td>
+                        <td class="text-left font-weight-600" >Development Field</td>
+                        <td class="text-left" >Sports</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Client Size</td>
-                        <td class="text-left" >11-100 employees</td>
+                        <td class="text-left font-weight-600" >Team Size</td>
+                        <td class="text-left" >5 people</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Technologies</td>
-                        <td class="text-left" >Java/Objective-C/Struts</td>
+                        <td class="text-left font-weight-600" >Technologies</td>
+                        <td class="text-left" >React-FeatherJs</td>
                     </tr>
                     <tr>
-                        <td class="text-right font-weight-600" >Contract Type - Developing duration</td>
-                        <td class="text-left" >Lab-type Contract in more than 2 years (On-going)</td>
+                        <td class="text-left font-weight-600" >Contract Type - Developing duration</td>
+                        <td class="text-left align-middle" >Lab-type Contract in 4 months</td>
                     </tr>
                     </tbody>
                 </table>
