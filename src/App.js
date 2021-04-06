@@ -9,19 +9,19 @@ import "slick-carousel/slick/slick-theme.css";
 import { Footer } from './components/layout/Footer';
 // pages
 import Home from './components/Home';
-import Home2_Header2 from './components/Header_style_02';
-import Home3_Header3 from './components/Header_style_03';
-import Aboutus_01 from './components/pages/Aboutus_01';
-import Aboutus_02 from './components/pages/Aboutus_02';
-import Services_01 from './components/pages/Services_01';
-import Services_02 from './components/pages/Services_02';
-import Our_expert from './components/pages/Our_expert';
+// import Home2_Header2 from './components/Header_style_02';
+// import Home3_Header3 from './components/Header_style_03';
+// import Aboutus_01 from './components/pages/Aboutus_01';
+// import Aboutus_02 from './components/pages/Aboutus_02';
+// import Services_01 from './components/pages/Services_01';
+// import Services_02 from './components/pages/Services_02';
+// import Our_expert from './components/pages/Our_expert';
 import Team_detail from './components/pages/Team_detail';
-import Faq from './components/pages/Faq';
-import Contact_01 from './components/pages/Contact_01';
+// import Faq from './components/pages/Faq';
+// import Contact_01 from './components/pages/Contact_01';
 import Contact_02 from './components/pages/Contact_02';
 import Error from './components/pages/Error';
-import Element from './components/pages/Element';
+// import Element from './components/pages/Element';
 import ScrollToTop from './components/layout/Gotop';
 import Company_Info from './components/pages/company_info';
 import Greetings from './components/pages/greetings';
@@ -47,19 +47,19 @@ function App() {
         </div>   
         <ScrollToTop />
             <Route exact path='/' component={ Home } /> 
-            <Route path='/header_style_02' component={ Home2_Header2 } />
+            {/* <Route path='/header_style_02' component={ Home2_Header2 } />
             <Route path='/header_style_03' component={ Home3_Header3 } />
             <Route path="/aboutus_01" component={Aboutus_01} />
             <Route path="/aboutus_02" component={Aboutus_02} />
             <Route path="/services_01" component={Services_01} />
-            <Route path="/services_02" component={Services_02} />
-            <Route path={`${appHistory.basename}/our_expert`} component={Our_expert} />
+            <Route path="/services_02" component={Services_02} /> 
+            <Route path={`${appHistory.basename}/our_expert`} component={Our_expert} />*/}
             <Route path="/team_detail" component={Team_detail} />
-            <Route path="/faq" component={Faq} />
-            <Route path="/contact_01" component={Contact_01} />
+            {/*<Route path="/faq" component={Faq} />
+            <Route path="/contact_01" component={Contact_01} />*/}
             <Route path="/contact" component={Contact_02} />
             <Route path="/error" component={Error} />
-            <Route path="/element" component={Element} />
+            {/* <Route path="/element" component={Element} /> */}
             <Route path="/company_info" component={Company_Info} />
             <Route path="/greetings" component={Greetings} />
             <Route path="/visions" component={Visions} />
