@@ -57,7 +57,7 @@ function App() {
             <Route path="/team_detail" component={Team_detail} />
             <Route path="/faq" component={Faq} />
             <Route path="/contact_01" component={Contact_01} />
-            <Route path="/contact_02" component={Contact_02} />
+            <Route path="/contact" component={Contact_02} />
             <Route path="/error" component={Error} />
             <Route path="/element" component={Element} />
             <Route path="/company_info" component={Company_Info} />
