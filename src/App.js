@@ -53,7 +53,7 @@ function App() {
             <Route path="/aboutus_02" component={Aboutus_02} />
             <Route path="/services_01" component={Services_01} />
             <Route path="/services_02" component={Services_02} />
-            <Route path="/our_expert" component={Our_expert} />
+            <Route path={`${appHistory.basename}/our_expert`} component={Our_expert} />
             <Route path="/team_detail" component={Team_detail} />
             <Route path="/faq" component={Faq} />
             <Route path="/contact_01" component={Contact_01} />
