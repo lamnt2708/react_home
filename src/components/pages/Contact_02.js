@@ -23,7 +23,7 @@ export class Contact_02 extends Component {
                                             <a title="Homepage" href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-home" />&nbsp;&nbsp;Home</a>
                                         </span>
                                         <span className="ttm-bread-sep">&nbsp; : : &nbsp;</span>
-                                        <span>Contact 02</span>
+                                        <span>Contact Us</span>
                                     </div>
                                 </div>
                             </div>{/* /.col-md-12 */}
