@@ -84,7 +84,7 @@ export class Projects_App extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/13.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/pos.jfif" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -162,7 +162,7 @@ export class Projects_App extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/english_learning.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -204,7 +204,7 @@ export class Projects_App extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/busses_track.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -275,7 +275,7 @@ export class Projects_App extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/game_voice.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -317,7 +317,7 @@ export class Projects_App extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/matching_app.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -387,7 +387,7 @@ export class Projects_App extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/message.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
