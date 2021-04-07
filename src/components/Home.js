@@ -157,12 +157,8 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/It_consultancy'}>Lab Type Offshore Developement</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/lab_develop'}>Lab Type Offshore Developement</a></h5>
                                     </div>
-                                    <div className="featured-desc">{/* featured-title */}
-                                        <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                    <a className="ttm-btn ttm-btn-size-sm ttm-textcolor-skincolor btn-inline ttm-icon-btn-right mt-2" href={process.env.PUBLIC_URL + '/It_consultancy'}>Read More <i className="ti ti-angle-double-right" /></a>
                                     </div>
                                 </div>
                                 {/* featured-imagebox-services */}
@@ -175,12 +171,8 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/Digital_services'}>Application Development</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/app_develop'}>Application Development</a></h5>
                                     </div>
-                                    <div className="featured-desc">{/* featured-title */}
-                                        <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                    <a className="ttm-btn ttm-btn-size-sm ttm-textcolor-skincolor btn-inline ttm-icon-btn-right mt-2" href={process.env.PUBLIC_URL + '/Digital_services'}>Read More <i className="ti ti-angle-double-right" /></a>
                                     </div>
                                 </div>
                                 {/* featured-imagebox-services */}
@@ -193,12 +185,11 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/Advisory_services'}>Website Developement</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/web_develop'}>Website Developement</a></h5>
                                     </div>
-                                    <div className="featured-desc">{/* featured-title */}
+                                    {/*<div className="featured-desc"> featured-title 
                                         <p>Reprehenderit in voluptate velit esse cillum pariatur pariatur cillum nulla pariatur.</p>
-                                    </div>
-                                    <a className="ttm-btn ttm-btn-size-sm ttm-textcolor-skincolor btn-inline ttm-icon-btn-right mt-2" href={process.env.PUBLIC_URL + '/Advisory_services'}>Read More <i className="ti ti-angle-double-right" /></a>
+                                    </div>*/}
                                     </div>
                                 </div>
                             </div>                            
@@ -228,8 +219,8 @@ export class Home extends Component {
                     <Tabs defaultIndex={0} onSelect={index => console.log(index)}>{/* tabs */}
                       <TabList className="tabs">
                         <Tab className="tab" title="Hi-Tech"><span><i className="flaticon flaticon-report" /> Remark</span></Tab>
-                        <Tab className="tab" title="Media"><span><i className="flaticon flaticon-computer" /> Application</span></Tab>
-                        <Tab className="tab" title="Industrial"><span><i className="flaticon flaticon-system" /> Website</span></Tab>
+                        <Tab className="tab" title="Media"><span><i className="flaticon flaticon-computer" /> Website</span></Tab>
+                        <Tab className="tab" title="Industrial"><span><i className="flaticon flaticon-system" /> Application</span></Tab>
                       </TabList>
                       <div className="box-shadow content-tab">
                         <FadeIn>
