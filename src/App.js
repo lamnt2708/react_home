@@ -41,7 +41,7 @@ function App() {
  
   return (
     <div className="page">
-      <Router basename={process.env.PUBLIC_URL} history={history}>  
+      <Router basename="https://bacnp.github.io/react_home/" history={history}>  
         <div id="preloader">
           <div id="status">&nbsp;</div>
         </div>   
