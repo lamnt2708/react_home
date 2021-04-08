@@ -26,7 +26,11 @@ export class Menu extends Component {
 
                         </ul>
                     </li>
-                    <li className="menu-hasdropdown"><a href={process.env.PUBLIC_URL + '/projects'}>Project</a>
+                    <li className="menu-hasdropdown"><a>Project</a>
+                    <ul className="menu-dropdown">
+                            <li><a href={process.env.PUBLIC_URL + '/projects_web'}>Website</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/projects_app'}>Appication</a></li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
