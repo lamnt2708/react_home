@@ -158,7 +158,7 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/lab_develop'}>Lab Type Offshore Developement</a></h5>
+                                        <h5><Link to='lab_develop'>Lab Type Offshore Developement</Link></h5>
                                     </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/app_develop'}>Application Development</a></h5>
+                                        <h5><Link to='/app_develop'>Application Development</Link></h5>
                                     </div>
                                     </div>
                                 </div>
@@ -186,7 +186,7 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/web_develop'}>Website Developement</a></h5>
+                                        <h5><Link to='/web_develop'>Website Developement</Link></h5>
                                     </div>
                                     {/*<div className="featured-desc"> featured-title 
                                         <p>Reprehenderit in voluptate velit esse cillum pariatur pariatur cillum nulla pariatur.</p>
