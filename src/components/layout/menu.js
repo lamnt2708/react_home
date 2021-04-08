@@ -12,24 +12,24 @@ export class Menu extends Component {
                     </li>
                     <li className="menu-hasdropdown"><a>About Us</a>
                         <ul className="menu-dropdown">
-                            <li><a href={process.env.PUBLIC_URL + '/company_info'}>Company's Info</a></li>
-                            <li><a href={process.env.PUBLIC_URL + '/greetings'}>CEO Greetings</a></li>
-                            <li><a href={process.env.PUBLIC_URL + '/visions'}>Visions</a></li>
-                            <li><a href={process.env.PUBLIC_URL + '/team_detail'}>Our Team</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#company_info'}>Company's Info</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#greetings'}>CEO Greetings</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#visions'}>Visions</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#team_detail'}>Our Team</a></li>
                         </ul>
                     </li>
                     <li className="menu-hasdropdown"><a>Services</a>
                         <ul className="menu-dropdown">
-                            <li><a href={process.env.PUBLIC_URL + '/lab_develop'}>Lab Type Offshore Development</a></li>
-                            <li><a href={process.env.PUBLIC_URL + '/app_develop'}>Appication Development</a></li>
-                            <li><a href={process.env.PUBLIC_URL + '/web_develop'}>Website Development</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#lab_develop'}>Lab Type Offshore Development</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#app_develop'}>Appication Development</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#web_develop'}>Website Development</a></li>
 
                         </ul>
                     </li>
                     <li className="menu-hasdropdown"><a>Project</a>
                     <ul className="menu-dropdown">
-                            <li><a href={process.env.PUBLIC_URL + '/projects_web'}>Website</a></li>
-                            <li><a href={process.env.PUBLIC_URL + '/projects_app'}>Appication</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#projects_web'}>Website</a></li>
+                            <li><a href={process.env.PUBLIC_URL + '/#projects_app'}>Application</a></li>
                         </ul>
                     </li>
                 </ul>

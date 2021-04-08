@@ -48,7 +48,7 @@ export class Our_expert extends Component {
                             </div> 
                             <div className="featured-content box-shadow">
                             <div className="featured-title">{/* featured-title */}
-                                <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jennifer Garcia</a></h5>
+                                <h5><a href={process.env.PUBLIC_URL + '/#Team_detail'}>Jennifer Garcia</a></h5>
                             </div>
                             <p className="category">IT Service Officer</p>{/* category */}
                             </div>
@@ -70,7 +70,7 @@ export class Our_expert extends Component {
                             </div> 
                             <div className="featured-content box-shadow">
                             <div className="featured-title">{/* featured-title */}
-                                <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Robert Liam</a></h5>
+                                <h5><a href={process.env.PUBLIC_URL + '/#Team_detail'}>Robert Liam</a></h5>
                             </div>
                             <p className="category">Web Designer</p>{/* category */}
                             </div>
@@ -92,7 +92,7 @@ export class Our_expert extends Component {
                             </div> 
                             <div className="featured-content box-shadow">
                             <div className="featured-title">{/* featured-title */}
-                                <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jessica Ethan</a></h5>
+                                <h5><a href={process.env.PUBLIC_URL + '/#Team_detail'}>Jessica Ethan</a></h5>
                             </div>
                             <p className="category">Project Manager</p>{/* category */}
                             </div>
@@ -114,7 +114,7 @@ export class Our_expert extends Component {
                             </div> 
                             <div className="featured-content box-shadow">
                             <div className="featured-title">{/* featured-title */}
-                                <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Amanda Brown</a></h5>
+                                <h5><a href={process.env.PUBLIC_URL + '/#Team_detail'}>Amanda Brown</a></h5>
                             </div>
                             <p className="category">Consultant Officer</p>{/* category */}
                             </div>
@@ -136,7 +136,7 @@ export class Our_expert extends Component {
                             </div> 
                             <div className="featured-content box-shadow">
                             <div className="featured-title">{/* featured-title */}
-                                <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Enna Mason</a></h5>
+                                <h5><a href={process.env.PUBLIC_URL + '/#Team_detail'}>Enna Mason</a></h5>
                             </div>
                             <p className="category">Product Analyst</p>{/* category */}
                             </div>
@@ -158,7 +158,7 @@ export class Our_expert extends Component {
                             </div> 
                             <div className="featured-content box-shadow">
                             <div className="featured-title">{/* featured-title */}
-                                <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>John Bruce</a></h5>
+                                <h5><a href={process.env.PUBLIC_URL + '/#Team_detail'}>John Bruce</a></h5>
                             </div>
                             <p className="category">IT Associative</p>{/* category */}
                             </div>
