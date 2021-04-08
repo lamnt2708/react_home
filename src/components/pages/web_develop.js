@@ -225,7 +225,7 @@ export class Web_Develop extends Component {
                                         <p>Business , Campaign</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -242,7 +242,7 @@ export class Web_Develop extends Component {
                                         <p>Campaign , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>IT Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -259,7 +259,7 @@ export class Web_Develop extends Component {
                                         <p>Corporate , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -276,7 +276,7 @@ export class Web_Develop extends Component {
                                         <p>Innovation , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Web Development</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -293,7 +293,7 @@ export class Web_Develop extends Component {
                                         <p>Corporate</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Neural Networking</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -310,7 +310,7 @@ export class Web_Develop extends Component {
                                         <p>Technology , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Data Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}

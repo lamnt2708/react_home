@@ -157,7 +157,7 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/#lab_develop'}>Lab Type Offshore Developement</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/lab_develop'}>Lab Type Offshore Developement</a></h5>
                                     </div>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/#app_develop'}>Application Development</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/app_develop'}>Application Development</a></h5>
                                     </div>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/#web_develop'}>Website Developement</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/web_develop'}>Website Developement</a></h5>
                                     </div>
                                     {/*<div className="featured-desc"> featured-title 
                                         <p>Reprehenderit in voluptate velit esse cillum pariatur pariatur cillum nulla pariatur.</p>
@@ -240,7 +240,7 @@ export class Home extends Component {
                                         <p>Business , Campaign</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -257,7 +257,7 @@ export class Home extends Component {
                                         <p>Campaign , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>IT Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -274,7 +274,7 @@ export class Home extends Component {
                                         <p>Corporate , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -291,7 +291,7 @@ export class Home extends Component {
                                         <p>Innovation , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Web Development</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -308,7 +308,7 @@ export class Home extends Component {
                                         <p>Corporate</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Neural Networking</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -325,7 +325,7 @@ export class Home extends Component {
                                         <p>Technology , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Data Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -349,7 +349,7 @@ export class Home extends Component {
                                         <p>Business , Campaign</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -366,7 +366,7 @@ export class Home extends Component {
                                         <p>Campaign , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>IT Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -383,7 +383,7 @@ export class Home extends Component {
                                         <p>Corporate , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -400,7 +400,7 @@ export class Home extends Component {
                                         <p>Innovation , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Web Development</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -417,7 +417,7 @@ export class Home extends Component {
                                         <p>Corporate</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Neural Networking</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -434,7 +434,7 @@ export class Home extends Component {
                                         <p>Technology , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Data Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -458,7 +458,7 @@ export class Home extends Component {
                                         <p>Business , Campaign</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -475,7 +475,7 @@ export class Home extends Component {
                                         <p>Campaign , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>IT Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -492,7 +492,7 @@ export class Home extends Component {
                                         <p>Corporate , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -509,7 +509,7 @@ export class Home extends Component {
                                         <p>Innovation , Technology</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Web Development</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -526,7 +526,7 @@ export class Home extends Component {
                                         <p>Corporate</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Neural Networking</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -543,7 +543,7 @@ export class Home extends Component {
                                         <p>Technology , Workshop</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/#Single_blog'}>Data Management</a></h5>
+                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
