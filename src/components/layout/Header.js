@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Menu } from './menu';
 import Mobilemenu from './Mobile_menu';
+import {Link} from 'react-router-dom';
 
 export class Header extends Component {
     state = {
@@ -62,7 +63,7 @@ export class Header extends Component {
                             <div className="site-navigation">
                                 <div className="ttm-right-header">
                                 <div className="header-btn">
-                                < a className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor" href={process.env.PUBLIC_URL + '/contact'}><i className="far fa-envelope" />Contact Us</ a>
+                                < Link className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor" to='/contact'><i className="far fa-envelope" />Contact Us</ Link>
                             </div>
                                 </div>
                                 <Menu />

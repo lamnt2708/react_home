@@ -3,6 +3,7 @@ import { MDBProgress } from 'mdbreact';
 import Slider from 'react-slick';
 import CountUp from 'react-countup';
 import Header from '../layout/Header';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export class Web_Develop extends Component {
     render() {
@@ -218,14 +219,14 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/ec_site.jpg" alt="ec_site" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Business , Campaign</p>
+                                        <p>Sales</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><Link to='/projects_web#project-1'>E-commerce Site</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -235,14 +236,14 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/drag_and_drop_app_builder.jpg" alt="app builder" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Campaign , Technology</p>
+                                        <p>IT</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
+                                        <h5><Link to='/projects_web#project-2'>Drag and Drop Mobile Application Builder System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -252,14 +253,14 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/hotel_management.jpg" alt="Hotel management" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate , Workshop</p>
+                                        <p>Services</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><Link to='/projects_web#project-3'>Hotel Chain Management System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -269,14 +270,14 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/teacher_dispatch_management.jfif" alt="teacher_dispatch_management" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Innovation , Technology</p>
+                                        <p>Education</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
+                                        <h5><Link to='/projects_web#project-4'>English Teacher Dispatching Management System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -286,14 +287,14 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/image_distribution.jpg" alt="image_distribution" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate</p>
+                                        <p>Media</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
+                                        <h5><Link to='/projects_web#project-5'>Image Distribution Website</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -303,14 +304,14 @@ export class Web_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/swim_record.jpg" alt="swim_record" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Technology , Workshop</p>
+                                        <p>Sports</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
+                                        <h5><Link to='/projects_web#project-6'>Swimming Record Storage System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}

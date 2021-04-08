@@ -2302,7 +2302,7 @@ body {
   padding: 8px 22px;
   margin-bottom: 5px;
   line-height: 22px;
-  width: auto;
+  width: 100%;
   position: relative;
   z-index: 3;
   -webkit-transition: all 0.3s;

@@ -150,7 +150,7 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>02</h5>
-                                <h2 className="title">Drag and Drop Mobile Application Builder System</h2>
+                                <h2 className="title">Drag and Drop Mobile Application Builder</h2>
                             </div>
                             <div className="title-desc">
                                 <p>A system that enabled you to create mobile applications without having to write any line of code. Just by dragging and dropping components on the browser, you can create any mobile applications that you want. </p>
