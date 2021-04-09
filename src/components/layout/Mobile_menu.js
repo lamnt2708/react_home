@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem,
 MDBHamburgerToggler } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Mobilemenu extends Component {
 state = {
@@ -29,10 +30,10 @@ render() {
                 <MDBNavbarNav left>
                   <MDBNavItem active>
                     <MDBDropdown>
-                        <MDBDropdownToggle nav caret>
-                            <span>Home</span>
+                        <MDBDropdownToggle nav>
+                        <span ><Link to='/'>Home</Link></span>
                         </MDBDropdownToggle>
-                        <MDBDropdownMenu>
+                        {/* <MDBDropdownMenu>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/'}>Homepage 1</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Home2'}>Homepage 2</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Home3'}>Homepage 3</MDBDropdownItem>
@@ -46,25 +47,25 @@ render() {
                                     <MDBDropdownItem target="_blank" href={process.env.PUBLIC_URL + '/Header_style_03'}>Header Style 03</MDBDropdownItem>
                                 </MDBDropdownMenu>
                             </MDBDropdown>
-                            </MDBDropdownMenu>
+                            </MDBDropdownMenu> */}
                     </MDBDropdown>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBDropdown>
                         <MDBDropdownToggle nav caret>
-                            <span>pages</span>
+                            <span>About Us</span>
                         </MDBDropdownToggle>
                         <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Aboutus_01'}>About Us 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Aboutus_02'}>About Us 2</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Services_01'}>Services 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Services_02'}>Services 2</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Our_expert'}>Our Expert</MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/company_info'}>Company's Info</Link></MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/greetings'}>CEO Greetings</Link></MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/visions'}>Visions</Link></MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/team_detail'}>Our Team</Link></MDBDropdownItem>
+                            {/* <MDBDropdownItem href={process.env.PUBLIC_URL + '/Our_expert'}>Our Expert</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Faq'}>FAQs</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Contact_01'}>Contact Us 1</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Contact_02'}>Contact Us 2</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Error'}>Error Page</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Element'}>Elements</MDBDropdownItem>
+                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Element'}>Elements</MDBDropdownItem> */}
                         </MDBDropdownMenu>
                     </MDBDropdown>
                   </MDBNavItem>
@@ -74,24 +75,24 @@ render() {
                             <span>services</span>
                         </MDBDropdownToggle>
                         <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/It_consultancy'}>IT Consultancy</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Digital_services'}>Digital Services</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Advisory_services'}>Advisory Services</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Data_structuring'}>Data Structuring</MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/lab_develop'}>Lab Type Offshore Development</Link></MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/app_develop'}>Appication Development</Link></MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/web_develop'}>Website Development</Link></MDBDropdownItem>
+                            {/* <MDBDropdownItem href={process.env.PUBLIC_URL + '/Data_structuring'}>Data Structuring</MDBDropdownItem>
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Experience_design'}>Experience Design</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Content_engineering'}>Content Engineering</MDBDropdownItem>
+                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Content_engineering'}>Content Engineering</MDBDropdownItem> */}
                         </MDBDropdownMenu>
                     </MDBDropdown>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBDropdown>
                         <MDBDropdownToggle nav caret>
-                            <span>Project</span>
+                            <span>Projects</span>
                         </MDBDropdownToggle>
                         <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Project_style1'}>Project Style 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Project_style2'}>Project Style 2</MDBDropdownItem>
-                            <MDBDropdown>
+                            <MDBDropdownItem ><Link to={'/projects_web'}>Website</Link></MDBDropdownItem>
+                            <MDBDropdownItem ><Link to={'/projects_app'}>Application</Link></MDBDropdownItem>
+                            {/* <MDBDropdown>
                                 <MDBDropdownToggle nav caret>
                                     <span>Project Single</span>
                                 </MDBDropdownToggle>
@@ -100,11 +101,11 @@ render() {
                                     <MDBDropdownItem href={process.env.PUBLIC_URL + '/Single_style2'}>Single Style 02</MDBDropdownItem>
                                     <MDBDropdownItem href={process.env.PUBLIC_URL + '/Single_style3'}>Single Style 03</MDBDropdownItem>
                                 </MDBDropdownMenu>
-                            </MDBDropdown>
+                            </MDBDropdown> */}
                             </MDBDropdownMenu>
                     </MDBDropdown>
                   </MDBNavItem>
-                  <MDBNavItem>
+                  {/* <MDBNavItem>
                     <MDBDropdown>
                         <MDBDropdownToggle nav caret>
                             <span>Blog</span>
@@ -130,7 +131,7 @@ render() {
                             <MDBDropdownItem href={process.env.PUBLIC_URL + '/Checkout'}>Checkout</MDBDropdownItem>
                         </MDBDropdownMenu>
                     </MDBDropdown>
-                  </MDBNavItem>
+                  </MDBNavItem> */}
                 </MDBNavbarNav>
               </MDBCollapse>
           </MDBNavbar>

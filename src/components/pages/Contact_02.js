@@ -78,7 +78,7 @@ export class Contact_02 extends Component {
                             <div className="col-md-12">
                                 <div className="text-center">
                                     <button type="submit" id="submit" className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor mt-5 res-991-mt-20" value>
-                                        Submit Massage
+                                        Submit Message
                             </button>
                                 </div>
                             </div>
