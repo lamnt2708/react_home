@@ -1,0 +1,25 @@
+{
+    "contactus.tittle": "問い合わせ",
+    "contactus.form.subtittle1":"ReactPlusのサービスに関心をお寄せいただき、ありがとうございます。",
+    "contactus.form.subtittle2": "下記フォームにお問い合わせ内容をご記入の上、送信してください。",
+    "contactus.form.fullname":"お名前",
+    "contactus.form.companyname": "会社名",
+    "contactus.form.phone":"電話番号",
+    "contactus.form.email": "メールアドレス",
+    "contactus.form.message": "問い合わせ内容",
+    "contactus.form.button": "送信",
+
+    "menu.home": "ホームページ",
+    "menu.aboutus": "情報",
+    "menu.aboutus.companyinfo": "会社概要",
+    "menu.aboutus.greetings": "社長からの挨拶",
+    "menu.aboutus.visions": "経営理念",
+    "menu.aboutus.ourteam": "開発チーム",
+  
+    "menu.service": "サービス",
+    "menu.service.laptype": "ラボ系開発",
+    "menu.service.applicationdevelop": "アプリ開発",
+    "menu.service.websitedevelop": "システム開発",
+    "menu.project": "プロジェクト"
+  }
+

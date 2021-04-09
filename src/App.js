@@ -32,14 +32,18 @@ import Web_Develop from './components/pages/web_develop';
 import Projects from './components/pages/projects';
 import Projects_Web from './components/pages/projects_web';
 import Projects_App from './components/pages/projects_app';
+import Header from './components/layout/Header'
+
+
 
 const appHistory = {
   basename: process.env.PUBLIC_URL
 };
 const history = createBrowserHistory(appHistory);
 function App() {
- 
+ console.log('celll')
   return (
+    
     <div className="page">
       <Router basename={process.env.PUBLIC_URL} history={history}>  
         <div id="preloader">

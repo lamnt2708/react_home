@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import { MDBProgress } from 'mdbreact';
-import { Header } from './layout/Header';
+import  Header  from './layout/Header';
 import { CarouselPage } from './banner/Home1_banner';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
