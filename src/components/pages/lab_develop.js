@@ -196,11 +196,11 @@ export class Lab_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -220,11 +220,11 @@ export class Lab_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -259,11 +259,11 @@ export class Lab_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>

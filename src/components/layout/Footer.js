@@ -47,7 +47,7 @@ export class Footer extends Component {
                         <div className="widget widget_text  clearfix">
                         <h3 className="widget-title">About Our Company</h3>
                         <div className="textwidget widget-text">
-                            We are the best world Information Technology Company. Providing the highest quality in hardware &amp; Network solutions. About more than 20 years of experience and 1000 of innovative achievements.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.
                         </div>
                         <div className="quicklink-box">
                             {/*  featured-icon-box */} 

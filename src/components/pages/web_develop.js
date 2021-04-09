@@ -79,7 +79,7 @@ export class Web_Develop extends Component {
                   <div className="col-md-12">
 
                     <div className="col-md-8 offset-md-2 px-md-0 ">
-                    <h5>Based on our abundant development experience, React + works on design and development from the viewpoint of "ease of use" in response to customer's requests and provides website development in order to help lead customer's business to success.</h5>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus. Donec sed faucibus ante, sit amet dignissim sapien</h5>
                     </div>
                     </div>
                     </div>
@@ -118,11 +118,11 @@ export class Web_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -146,11 +146,11 @@ export class Web_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -185,11 +185,11 @@ export class Web_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
