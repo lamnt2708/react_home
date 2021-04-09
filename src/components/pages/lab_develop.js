@@ -3,6 +3,7 @@ import { MDBProgress } from 'mdbreact';
 import Slider from 'react-slick';
 import CountUp from 'react-countup';
 import Header from '../layout/Header';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export class Lab_Develop extends Component {
     render() {
@@ -195,11 +196,11 @@ export class Lab_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -219,11 +220,11 @@ export class Lab_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -258,11 +259,11 @@ export class Lab_Develop extends Component {
                             {/* section title */}
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
-                                <h5>About us</h5>
-                                <h2 className="title">Product development for<br /> better <span>Business</span></h2>
+                                <h5>Lorem ipsum</h5>
+                                <h2 className="title">Lorem ipsum<br /> dolor sit amet <span>consectetur</span></h2>
                             </div>
                             <div className="title-desc">
-                                <p>High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s web applications.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.</p>
                             </div>
                             </div>{/* section title end */}
                         </div>
@@ -290,14 +291,14 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/ec_site.jpg" alt="ec_site" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Business , Campaign</p>
+                                        <p>Sales</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><Link to='/projects_web#project-1'>E-commerce Site</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -307,14 +308,14 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/drag_and_drop_app_builder.jpg" alt="app builder" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Campaign , Technology</p>
+                                        <p>IT</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
+                                        <h5><Link to='/projects_web#project-2'>Drag and Drop Mobile Application Builder System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -324,14 +325,14 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/game_voice.jpg" alt="in_game_voice_chat" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate , Workshop</p>
+                                        <p>Media</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><Link to='/projects_app#project-4'>In-game Voice Chat Application</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -341,14 +342,14 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/teacher_dispatch_management.jfif" alt="teacher_dispatch_management" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Innovation , Technology</p>
+                                        <p>Education</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
+                                        <h5><Link to='/projects_web#project-4'>English Teacher Dispatching Management System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -358,14 +359,14 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/english_learning.jpg" alt="english_learning_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate</p>
+                                        <p>Education</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
+                                        <h5><Link to='/projects_app#project-2'>English Study App for Japanese</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -375,14 +376,14 @@ export class Lab_Develop extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/swim_record.jpg" alt="swim_record" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Technology , Workshop</p>
+                                        <p>Sports</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
+                                        <h5><Link to='/projects_web#project-6'>Swimming Record Storage System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}

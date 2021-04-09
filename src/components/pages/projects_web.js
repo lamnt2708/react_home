@@ -84,7 +84,7 @@ export class Projects_Web extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/13.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/ec_site.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -150,7 +150,7 @@ export class Projects_Web extends Component {
                             <div className="section-title with-desc clearfix">
                             <div className="title-header">
                                 <h5>02</h5>
-                                <h2 className="title">Drag and Drop Mobile Application Builder System</h2>
+                                <h2 className="title">Drag and Drop Mobile Application Builder</h2>
                             </div>
                             <div className="title-desc">
                                 <p>A system that enabled you to create mobile applications without having to write any line of code. Just by dragging and dropping components on the browser, you can create any mobile applications that you want. </p>
@@ -162,7 +162,7 @@ export class Projects_Web extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/drag_and_drop_app_builder.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -204,7 +204,7 @@ export class Projects_Web extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/hotel_management.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -274,7 +274,7 @@ export class Projects_Web extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/teacher_dispatch_management.jfif" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -316,7 +316,7 @@ export class Projects_Web extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/15.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/image_distribution.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>
@@ -386,7 +386,7 @@ export class Projects_Web extends Component {
                         <div className="position-relative">
                             {/* ttm_single_image-wrapper */}
                             <div className="ttm_single_image-wrapper text-sm-center mr-35 res-991-m-0">
-                            <img className="img-fluid" src="./images/temp/14.jpg" title="single-img-nine" alt="single-img-nine" />
+                            <img className="img-project" src="./images/temp/swim_record.jpg" title="single-img-nine" alt="single-img-nine" />
                             </div>{/* ttm_single_image-wrapper end */}
                         </div>
                         </div>

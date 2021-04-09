@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import  Menu  from "./menu";
-import Mobilemenu from "./Mobile_menu";
-import ChangeLanguageText from "../switchLanguage/SwitchLanguage/index";
+import React, { Component } from 'react'
+import { Menu } from './menu';
+import Mobilemenu from './Mobile_menu';
+import {Link} from 'react-router-dom';
+import ChangeLanguageText from '../switchLanguage/SwitchLanguage/index'
 
 export class Header extends Component {
   state = {
@@ -66,31 +67,32 @@ export class Header extends Component {
                             </div> */}
                             <ChangeLanguageText />
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* ttm-topbar-wrapper end */}
-        {/* ttm-header-wrap */}
-        <div className="ttm-header-wrap">
-          <div id="navbar" className="ttm-stickable-header clearfix">
-            <div className="site-header-menu">
-              <div className="container-xl">
-                {/* site-branding */}
-                <div className="site-branding">
-                  <a
-                    className="home-link"
-                    href={process.env.PUBLIC_URL + "/"}
-                    title="React"
-                    rel="home"
-                  >
-                    <img
-                      id="logo-img"
-                      className="img-fluid"
-                      alt="logo"
-                      src="images/logo.png"
-                    />
-                  </a>
+                {/* ttm-topbar-wrapper end */}
+                {/* ttm-header-wrap */}
+                <div className="ttm-header-wrap">
+                <div id="navbar" className="ttm-stickable-header clearfix">
+                    <div className="site-header-menu">
+                        <div className="container-xl">
+                            {/* site-branding */}
+                            <div className="site-branding">
+                            <a className="home-link" href={process.env.PUBLIC_URL + '/'} title="React" rel="home">
+                                <img id="logo-img" className="img-fluid" alt="logo" src="images/logo.png" />
+                            </a>
+                            </div>
+                            {/* site-branding end*/}
+                            {/*site-navigation */}
+                            <div className="site-navigation">
+                                <div className="ttm-right-header">
+                                <div className="header-btn">
+                                < Link className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor" to='/contact'><i className="far fa-envelope" /><span>Contact Us</ span></ Link>
+                            </div>
+                                </div>
+                                <Menu />
+                                <div className="mobilemenu"><Mobilemenu/></div>
+                            </div>
+                            {/*site-navigation end*/}
+                        </div>
+                    </div>
                 </div>
                 {/* site-branding end*/}
                 {/*site-navigation */}
@@ -115,6 +117,7 @@ export class Header extends Component {
               </div>
             </div>
           </div>
+        </div>
         </div>
         {/* ttm-header-wrap end*/}
       </header>

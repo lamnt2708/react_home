@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {createBrowserHistory} from 'history';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
+import Scroll from './ScrollToTop';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -37,26 +37,26 @@ import Header from './components/layout/Header'
 
 
 const appHistory = {
-  basename: process.env.PUBLIC_URL
+  basename: '/'
 };
 const history = createBrowserHistory(appHistory);
 function App() {
- console.log('celll')
   return (
     
     <div className="page">
-      <Router basename={process.env.PUBLIC_URL} history={history}>  
+      <Scroll />
+      <Router basename="/" history={history}>
         <div id="preloader">
           <div id="status">&nbsp;</div>
-        </div>   
+        </div>
         <ScrollToTop />
-            <Route exact path='/' component={ Home } /> 
+            <Route exact path='/' component={ Home } />
             {/* <Route path='/header_style_02' component={ Home2_Header2 } />
             <Route path='/header_style_03' component={ Home3_Header3 } />
             <Route path="/aboutus_01" component={Aboutus_01} />
             <Route path="/aboutus_02" component={Aboutus_02} />
             <Route path="/services_01" component={Services_01} />
-            <Route path="/services_02" component={Services_02} /> 
+            <Route path="/services_02" component={Services_02} />
             <Route path={`${appHistory.basename}/our_expert`} component={Our_expert} />*/}
             <Route path="/team_detail" component={Team_detail} />
             {/*<Route path="/faq" component={Faq} />
@@ -74,8 +74,8 @@ function App() {
             <Route path="/projects_web" component={Projects_Web} />
             <Route path="/projects_app" component={Projects_App} />
         <Footer />
-    </Router>  
-    </div> 
+    </Router>
+    </div>
   );
  }
 

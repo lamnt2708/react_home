@@ -137,7 +137,7 @@ export class Visions extends Component {
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                             <div className="featured-title">{/*  featured-title */}
-                                <h5>Make It Simple</h5>
+                                <h5>Lorem ipsum</h5>
                             </div>
                             <div className="featured-desc">{/*  featured-desc */}
                                 <p>Lorem Ipsum is simply dummy text  ever since of the printing and typesetting industry.</p>
@@ -155,7 +155,7 @@ export class Visions extends Component {
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                             <div className="featured-title">{/*  featured-title */}
-                                <h5>Unique Strategy</h5>
+                                <h5>Lorem ipsum</h5>
                             </div>
                             <div className="featured-desc">{/*  featured-desc */}
                                 <p>Lorem Ipsum is simply dummy text  ever since of the printing and typesetting industry.</p>
@@ -173,7 +173,7 @@ export class Visions extends Component {
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                             <div className="featured-title">{/*  featured-title */}
-                                <h5>Unique Planning</h5>
+                                <h5>Lorem ipsum</h5>
                             </div>
                             <div className="featured-desc">{/*  featured-desc */}
                                 <p>Lorem Ipsum is simply dummy text  ever since of the printing and typesetting industry.</p>
@@ -189,12 +189,12 @@ export class Visions extends Component {
                         <div className="featured-icon-box left-icon style7 icon-align-top">
                             <div className="featured-icon">{/*  featured-icon */} 
                             <div className="ttm-icon ttm-textcolor-skincolor ttm-icon_element-size-md">
-                                <i className="flaticon flaticon-system" />{/*  ttm-icon */} 
+                                <i className="flaticon flaticon-chart" />{/*  ttm-icon */} 
                             </div>
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                             <div className="featured-title">{/*  featured-title */}
-                                <h5>Make It Simple</h5>
+                                <h5>Lorem ipsum</h5>
                             </div>
                             <div className="featured-desc">{/*  featured-desc */}
                                 <p>Lorem Ipsum is simply dummy text  ever since of the printing and typesetting industry.</p>
@@ -207,12 +207,12 @@ export class Visions extends Component {
                         <div className="featured-icon-box left-icon style7 icon-align-top">
                             <div className="featured-icon">{/*  featured-icon */} 
                             <div className="ttm-icon ttm-textcolor-skincolor ttm-icon_element-size-md">
-                                <i className="flaticon flaticon-data" />{/*  ttm-icon */} 
+                                <i className="flaticon flaticon-content" />{/*  ttm-icon */} 
                             </div>
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                             <div className="featured-title">{/*  featured-title */}
-                                <h5>Unique Strategy</h5>
+                                <h5>Lorem ipsum</h5>
                             </div>
                             <div className="featured-desc">{/*  featured-desc */}
                                 <p>Lorem Ipsum is simply dummy text  ever since of the printing and typesetting industry.</p>
@@ -225,12 +225,12 @@ export class Visions extends Component {
                         <div className="featured-icon-box left-icon style7 icon-align-top">
                             <div className="featured-icon">{/*  featured-icon */} 
                             <div className="ttm-icon ttm-textcolor-skincolor ttm-icon_element-size-md">
-                                <i className="flaticon flaticon-analytics" />{/*  ttm-icon */} 
+                                <i className="flaticon flaticon-mobile-app" />{/*  ttm-icon */} 
                             </div>
                             </div>
                             <div className="featured-content">{/*  featured-content */}
                             <div className="featured-title">{/*  featured-title */}
-                                <h5>Unique Planning</h5>
+                                <h5>Lorem ipsum</h5>
                             </div>
                             <div className="featured-desc">{/*  featured-desc */}
                                 <p>Lorem Ipsum is simply dummy text  ever since of the printing and typesetting industry.</p>

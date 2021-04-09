@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 export class Footer extends Component {
     render() {
@@ -46,7 +47,7 @@ export class Footer extends Component {
                         <div className="widget widget_text  clearfix">
                         <h3 className="widget-title">About Our Company</h3>
                         <div className="textwidget widget-text">
-                            We are the best world Information Technology Company. Providing the highest quality in hardware &amp; Network solutions. About more than 20 years of experience and 1000 of innovative achievements.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at lorem purus. Duis eros odio, aliquet eu turpis sed, vehicula pulvinar lacus.
                         </div>
                         <div className="quicklink-box">
                             {/*  featured-icon-box */} 
@@ -70,31 +71,29 @@ export class Footer extends Component {
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div className="widget link-widget clearfix">
-                        <h3 className="widget-title">Quick Links</h3>
+                        <h3 className="widget-title">About Us</h3>
                         <ul id="menu-footer-services">
-                            <li><a >Make Appointment</a></li>
-                            <li><a >Customer Services</a></li>
-                            <li><a >Department Services</a></li>
-                            <li><a >About Company</a></li>
-                            <li><a >Our Case Studies</a></li>
-                            <li><a >Free Consultation</a></li>
-                            <li><a >Meet Our Experts</a></li>
-                            <li><a >Our Business Growth</a></li>
+                        <li><Link to={'/company_info'}>Company's Info</Link></li>
+                            <li><Link to={'/greetings'}>CEO Greetings</Link></li>
+                            <li><Link to={'/visions'}>Visions</Link></li>
+                            <li><Link to={'/team_detail'}>Our Team</Link></li>
                         </ul>
                         </div>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                         <div className="widget link-widget clearfix">
-                        <h3 className="widget-title">Quick Links</h3>
+                        <h3 className="widget-title">Services</h3>
                         <ul id="menu-footer-services">
-                            <li><a >Make Appointment</a></li>
-                            <li><a >Customer Services</a></li>
-                            <li><a >Department Services</a></li>
-                            <li><a >About Company</a></li>
-                            <li><a >Our Case Studies</a></li>
-                            <li><a >Free Consultation</a></li>
-                            <li><a >Meet Our Experts</a></li>
-                            <li><a >Our Business Growth</a></li>
+                            <li><Link to={'/lab_develop'}>Lab Type Offshore Development</Link></li>
+                            <li><Link to={'/app_develop'}>Appication Development</Link></li>
+                            <li><Link to={'/web_develop'}>Website Development</Link></li>
+
+                        </ul>
+
+                        <h3 className="widget-title mt-4">Projects</h3>
+                        <ul id="menu-footer-services">
+                            <li><Link to={'/projects_web'}>Website</Link></li>
+                            <li><Link to={'/projects_app'}>Application</Link></li>
                         </ul>
                         </div>
                     </div>
@@ -128,11 +127,6 @@ export class Footer extends Component {
                     <div className="col-md-6">
                         <div className="text-md-right res-767-mt-10">
                         <div className="d-lg-inline-flex">
-                            <ul id="menu-footer-menu" className="footer-nav-menu">
-                            <li><a>About Us</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Privacy</a></li>
-                            </ul>
                             <div className="float-md-right ml-20 res-767-ml-0">
                             <img data-src="images/footer-payment-img.png" alt="payment-img" src="images/footer-payment-img.png" />
                             </div>

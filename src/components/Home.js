@@ -8,6 +8,7 @@ import 'react-image-lightbox/style.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import FadeIn from 'react-fade-in';
 import CountUp from 'react-countup';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const images = [
@@ -157,12 +158,8 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/It_consultancy'}>Lab Type Offshore Developement</a></h5>
+                                        <h5><Link to='lab_develop'>Lab Type Offshore Developement</Link></h5>
                                     </div>
-                                    <div className="featured-desc">{/* featured-title */}
-                                        <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                    <a className="ttm-btn ttm-btn-size-sm ttm-textcolor-skincolor btn-inline ttm-icon-btn-right mt-2" href={process.env.PUBLIC_URL + '/It_consultancy'}>Read More <i className="ti ti-angle-double-right" /></a>
                                     </div>
                                 </div>
                                 {/* featured-imagebox-services */}
@@ -175,12 +172,8 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/Digital_services'}>Application Development</a></h5>
+                                        <h5><Link to='/app_develop'>Application Development</Link></h5>
                                     </div>
-                                    <div className="featured-desc">{/* featured-title */}
-                                        <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    </div>
-                                    <a className="ttm-btn ttm-btn-size-sm ttm-textcolor-skincolor btn-inline ttm-icon-btn-right mt-2" href={process.env.PUBLIC_URL + '/Digital_services'}>Read More <i className="ti ti-angle-double-right" /></a>
                                     </div>
                                 </div>
                                 {/* featured-imagebox-services */}
@@ -193,12 +186,11 @@ export class Home extends Component {
                                     </div> 
                                     <div className="featured-content box-shadow">
                                     <div className="featured-title">{/* featured-title */}
-                                        <h5><a href={process.env.PUBLIC_URL + '/Advisory_services'}>Website Developement</a></h5>
+                                        <h5><Link to='/web_develop'>Website Developement</Link></h5>
                                     </div>
-                                    <div className="featured-desc">{/* featured-title */}
+                                    {/*<div className="featured-desc"> featured-title 
                                         <p>Reprehenderit in voluptate velit esse cillum pariatur pariatur cillum nulla pariatur.</p>
-                                    </div>
-                                    <a className="ttm-btn ttm-btn-size-sm ttm-textcolor-skincolor btn-inline ttm-icon-btn-right mt-2" href={process.env.PUBLIC_URL + '/Advisory_services'}>Read More <i className="ti ti-angle-double-right" /></a>
+                                    </div>*/}
                                     </div>
                                 </div>
                             </div>                            
@@ -227,14 +219,14 @@ export class Home extends Component {
                     <div className="ttm-tabs text-center ttm-tab-style-classic style1">
                     <Tabs defaultIndex={0} onSelect={index => console.log(index)}>{/* tabs */}
                       <TabList className="tabs">
-                        <Tab className="tab" title="Hi-Tech"><span><i className="flaticon flaticon-report" /> Remark</span></Tab>
-                        <Tab className="tab" title="Media"><span><i className="flaticon flaticon-computer" /> Application</span></Tab>
-                        <Tab className="tab" title="Industrial"><span><i className="flaticon flaticon-system" /> Website</span></Tab>
+                        <Tab className="tab" title="Remark"><span><i className="flaticon flaticon-report" /> Remark</span></Tab>
+                        <Tab className="tab" title="Website"><span><i className="flaticon flaticon-computer" /> Website</span></Tab>
+                        <Tab className="tab" title="Application"><span><i className="flaticon flaticon-system" /> Application</span></Tab>
                       </TabList>
                       <div className="box-shadow content-tab">
                         <FadeIn>
                         <TabPanel>
-                            <div className="content-inner active">
+                        <div className="content-inner active">
                               {/* row */}
                               <div className="row multi-columns-row ttm-boxes-spacing-10px ttm-bgcolor-white">
                                 <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
@@ -242,14 +234,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/ec_site.jpg" alt="ec_site" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Business , Campaign</p>
+                                        <p>Sales</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><Link to='/projects_web#project-1'>E-commerce Site</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -259,14 +251,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/drag_and_drop_app_builder.jpg" alt="app builder" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Campaign , Technology</p>
+                                        <p>IT</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
+                                        <h5><Link to='/projects_web#project-2'>Drag and Drop Mobile Application Builder System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -276,14 +268,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/hotel_management.jpg" alt="Hotel management" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate , Workshop</p>
+                                        <p>Services</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><Link to='/projects_web#project-3'>Hotel Chain Management System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -293,14 +285,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/pos.jfif" alt="pos app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Innovation , Technology</p>
+                                        <p>Sales</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
+                                        <h5><Link to='/projects_app#project-1'>POS Application For Tablet</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -310,14 +302,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/english_learning.jpg" alt="english_learning_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate</p>
+                                        <p>Education</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
+                                        <h5><Link to='/projects_app#project-2'>English Study App for Japanese</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -327,14 +319,123 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/busses_track.jpg" alt="busses_track_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Technology , Workshop</p>
+                                        <p>Services</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
+                                        <h5><Link to='/projects_app#project-3'>Bus Track Application</Link></h5>
+                                      </div>
+                                    </div>
+                                  </div>{/* featured-imagebox */}
+                                </div>
+                              </div>{/* row end */}
+                            </div>{/* content-inner */}{/* row end*/}
+                        </TabPanel>
+                        <TabPanel>
+                        <div className="content-inner ">
+                              {/* row */}
+                              <div className="row multi-columns-row ttm-boxes-spacing-10px ttm-bgcolor-white">
+                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                                  {/* featured-imagebox */}
+                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
+                                    {/* featured-thumbnail */}
+                                    <div className="featured-thumbnail">
+                                      <img className="img-thumbnail-2" src="./images/temp/ec_site.jpg" alt="ec_site" />
+                                    </div>{/* featured-thumbnail end*/}
+                                    <div className="featured-content">
+                                      <div className="category">
+                                        <p>Sales</p>
+                                      </div>
+                                      <div className="featured-title">
+                                        <h5><Link to='/projects_web#project-1'>E-commerce Site</Link></h5>
+                                      </div>
+                                    </div>
+                                  </div>{/* featured-imagebox */}
+                                </div>
+                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                                  {/* featured-imagebox */}
+                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
+                                    {/* featured-thumbnail */}
+                                    <div className="featured-thumbnail">
+                                      <img className="img-thumbnail-2" src="./images/temp/drag_and_drop_app_builder.jpg" alt="app builder" />
+                                    </div>{/* featured-thumbnail end*/}
+                                    <div className="featured-content">
+                                      <div className="category">
+                                        <p>IT</p>
+                                      </div>
+                                      <div className="featured-title">
+                                        <h5><Link to='/projects_web#project-2'>Drag and Drop Mobile Application Builder System</Link></h5>
+                                      </div>
+                                    </div>
+                                  </div>{/* featured-imagebox */}
+                                </div>
+                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                                  {/* featured-imagebox */}
+                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
+                                    {/* featured-thumbnail */}
+                                    <div className="featured-thumbnail">
+                                      <img className="img-thumbnail-2" src="./images/temp/hotel_management.jpg" alt="Hotel management" />
+                                    </div>{/* featured-thumbnail end*/}
+                                    <div className="featured-content">
+                                      <div className="category">
+                                        <p>Services</p>
+                                      </div>
+                                      <div className="featured-title">
+                                        <h5><Link to='/projects_web#project-3'>Hotel Chain Management System</Link></h5>
+                                      </div>
+                                    </div>
+                                  </div>{/* featured-imagebox */}
+                                </div>
+                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                                  {/* featured-imagebox */}
+                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
+                                    {/* featured-thumbnail */}
+                                    <div className="featured-thumbnail">
+                                      <img className="img-thumbnail-2" src="./images/temp/teacher_dispatch_management.jfif" alt="teacher_dispatch_management" />
+                                    </div>{/* featured-thumbnail end*/}
+                                    <div className="featured-content">
+                                      <div className="category">
+                                        <p>Education</p>
+                                      </div>
+                                      <div className="featured-title">
+                                        <h5><Link to='/projects_web#project-4'>English Teacher Dispatching Management System</Link></h5>
+                                      </div>
+                                    </div>
+                                  </div>{/* featured-imagebox */}
+                                </div>
+                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                                  {/* featured-imagebox */}
+                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
+                                    {/* featured-thumbnail */}
+                                    <div className="featured-thumbnail">
+                                      <img className="img-thumbnail-2" src="./images/temp/image_distribution.jpg" alt="image_distribution" />
+                                    </div>{/* featured-thumbnail end*/}
+                                    <div className="featured-content">
+                                      <div className="category">
+                                        <p>Media</p>
+                                      </div>
+                                      <div className="featured-title">
+                                        <h5><Link to='/projects_web#project-5'>Image Distribution Website</Link></h5>
+                                      </div>
+                                    </div>
+                                  </div>{/* featured-imagebox */}
+                                </div>
+                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
+                                  {/* featured-imagebox */}
+                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
+                                    {/* featured-thumbnail */}
+                                    <div className="featured-thumbnail">
+                                      <img className="img-thumbnail-2" src="./images/temp/swim_record.jpg" alt="swim_record" />
+                                    </div>{/* featured-thumbnail end*/}
+                                    <div className="featured-content">
+                                      <div className="category">
+                                        <p>Sports</p>
+                                      </div>
+                                      <div className="featured-title">
+                                        <h5><Link to='/projects_web#project-6'>Swimming Record Storage System</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -343,7 +444,7 @@ export class Home extends Component {
                             </div>{/* content-inner */}{/* row end*/}
                         </TabPanel>
                         <TabPanel>
-                            <div className="content-inner">
+                        <div className="content-inner ">
                               {/* row */}
                               <div className="row multi-columns-row ttm-boxes-spacing-10px ttm-bgcolor-white">
                                 <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
@@ -351,14 +452,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/pos.jfif" alt="pos app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Business , Campaign</p>
+                                        <p>Sales</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
+                                        <h5><Link to='/projects_app#project-1'>POS Application For Tablet</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -368,14 +469,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/english_learning.jpg" alt="english_learning_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Campaign , Technology</p>
+                                        <p>Education</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
+                                        <h5><Link to='/projects_app#project-2'>English Study App for Japanese</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -385,14 +486,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/busses_track.jpg" alt="busses_track_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate , Workshop</p>
+                                        <p>Services</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
+                                        <h5><Link to='/projects_app#project-3'>Bus Track Application</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -402,14 +503,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/game_voice.jpg" alt="in_game_voice_chat" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Innovation , Technology</p>
+                                        <p>Media</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
+                                        <h5><Link to='/projects_app#project-4'>In-game Voice Chat Application</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -419,14 +520,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/matching_app.jpg" alt="matching_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Corporate</p>
+                                        <p>Services</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
+                                        <h5><Link to='/projects_app#project-5'>Matching App</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
@@ -436,123 +537,14 @@ export class Home extends Component {
                                   <div className="featured-imagebox featured-imagebox-portfolio style2">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
+                                      <img className="img-thumbnail-2" src="./images/temp/message.jpg" alt="message_app" />
                                     </div>{/* featured-thumbnail end*/}
                                     <div className="featured-content">
                                       <div className="category">
-                                        <p>Technology , Workshop</p>
+                                        <p>Services</p>
                                       </div>
                                       <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
-                                      </div>
-                                    </div>
-                                  </div>{/* featured-imagebox */}
-                                </div> 
-                              </div>{/* row end */}
-                            </div>{/* content-inner */}{/* row end*/}
-                        </TabPanel>
-                        <TabPanel>
-                            <div className="content-inner">
-                              {/* row */}
-                              <div className="row multi-columns-row ttm-boxes-spacing-10px ttm-bgcolor-white">
-                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                                  {/* featured-imagebox */}
-                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/10.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end*/}
-                                    <div className="featured-content">
-                                      <div className="category">
-                                        <p>Business , Campaign</p>
-                                      </div>
-                                      <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Innovative Technology</a></h5>
-                                      </div>
-                                    </div>
-                                  </div>{/* featured-imagebox */}
-                                </div>
-                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                                  {/* featured-imagebox */}
-                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/11.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end*/}
-                                    <div className="featured-content">
-                                      <div className="category">
-                                        <p>Campaign , Technology</p>
-                                      </div>
-                                      <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>IT Management</a></h5>
-                                      </div>
-                                    </div>
-                                  </div>{/* featured-imagebox */}
-                                </div>
-                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                                  {/* featured-imagebox */}
-                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/12.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end*/}
-                                    <div className="featured-content">
-                                      <div className="category">
-                                        <p>Corporate , Workshop</p>
-                                      </div>
-                                      <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Cyber Security Analysis</a></h5>
-                                      </div>
-                                    </div>
-                                  </div>{/* featured-imagebox */}
-                                </div>
-                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                                  {/* featured-imagebox */}
-                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/07.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end*/}
-                                    <div className="featured-content">
-                                      <div className="category">
-                                        <p>Innovation , Technology</p>
-                                      </div>
-                                      <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Web Development</a></h5>
-                                      </div>
-                                    </div>
-                                  </div>{/* featured-imagebox */}
-                                </div>
-                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                                  {/* featured-imagebox */}
-                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/08.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end*/}
-                                    <div className="featured-content">
-                                      <div className="category">
-                                        <p>Corporate</p>
-                                      </div>
-                                      <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Neural Networking</a></h5>
-                                      </div>
-                                    </div>
-                                  </div>{/* featured-imagebox */}
-                                </div>
-                                <div className="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
-                                  {/* featured-imagebox */}
-                                  <div className="featured-imagebox featured-imagebox-portfolio style2">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                      <img className="img-fluid" src="./images/temp/09.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end*/}
-                                    <div className="featured-content">
-                                      <div className="category">
-                                        <p>Technology , Workshop</p>
-                                      </div>
-                                      <div className="featured-title">
-                                        <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Data Management</a></h5>
+                                        <h5><Link to='/projects_app#project-6'>Medical Messaging App</Link></h5>
                                       </div>
                                     </div>
                                   </div>{/* featured-imagebox */}
