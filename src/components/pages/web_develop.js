@@ -336,7 +336,7 @@ export class Web_Develop extends Component {
 
                   <div className="title-desc">
                     <div className="client">
-                    <img className="img-fluid" src="./images/temp/tech_01.png"></img>
+                    <img className="img-fluid" src="./images/temp/tech.jpg"></img>
 
 
                     </div>
