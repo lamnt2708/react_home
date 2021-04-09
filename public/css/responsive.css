@@ -30,6 +30,7 @@
   .ttm-header-style-01 .ttm-stickable-header.fixed-header .site-branding, .ttm-header-style-01 .ttm-stickable-header.fixed-header .ttm-right-header, .ttm-header-style-01 .ttm-stickable-header.fixed-header .menu > ul > li > a {
     height: 70px;
     line-height: 70px;
+    
   }
   .ttm-header-style-02 .ttm-stickable-header {
     border-top: 1px solid #eaeff5;
@@ -121,7 +122,7 @@
     right: 12px;
     top: 16px;
     display: inline-block;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     font-size: 15px;
     margin-left: 4px;
     opacity: 0.8;
@@ -399,7 +400,7 @@
     top: 20px;
     right: 0;
     content: "\f107";
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     font-size: 20px;
     border: 0;
   }
@@ -446,6 +447,12 @@
     height: 80px !important;
     line-height: 80px !important;
   }
+  .ttm-right-header .header-btn a span {
+     display: none; 
+  }
+  .ttm-right-header .header-btn a svg {
+    margin: 0;
+ }
   .ttm-right-header .ttm-header-icons::before {
     content: none;
   }

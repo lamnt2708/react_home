@@ -63,7 +63,7 @@ export class Header extends Component {
                             <div className="site-navigation">
                                 <div className="ttm-right-header">
                                 <div className="header-btn">
-                                < Link className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor" to='/contact'><i className="far fa-envelope" />Contact Us</ Link>
+                                < Link className="ttm-btn ttm-btn-size-md ttm-bgcolor-skincolor" to='/contact'><i className="far fa-envelope" /><span>Contact Us</ span></ Link>
                             </div>
                                 </div>
                                 <Menu />

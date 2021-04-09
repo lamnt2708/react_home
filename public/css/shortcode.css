@@ -566,6 +566,7 @@
 }
 
 .ttm-btn-size-md.ttm-btn {
+  z-index: 99;
   font-size: 14px;
   padding: 10px 30px;
 }
